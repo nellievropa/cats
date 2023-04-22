@@ -1,19 +1,91 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin: 0;
+}
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+.container {
+    width: 944px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .page-header {
-    background-color: ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 16px;
 }
 
 .site-logo {
-
+display: flex;
+align-items: center;
+gap: 8px;
 font-weight: 700;
 font-size: 24px;
 line-height: calc(40 / 24);
 
 letter-spacing: 0.5px;
-
+ color: #F07F2E;
+ text-decoration: none;
+}
+.page-nav {
+    display: flex;
+    gap: 40px; 
+}
+.page-nav a {
 text-decoration: none;
+font-weight: 700;
+font-size: 24px;
+line-height: 40px;
+letter-spacing: 0.5px;
+color: #2C2C2C
+}
+
+.page-nav a:hover {
     color: #F07F2E;
+    
+}
+.section-title{
+font-weight: 700;
+font-size: 24px;
+line-height: calc(40 / 24);
+
+letter-spacing: 0.5px;
+color: #2C2C2C;
+
+margin-bottom: 40px;
+}
+
+.section-list {
+    display: flex;
+    gap: 40px;
+
+}
+.section-list li {
+    overflow: hidden;
+    border-radius: 16px;
+}
+.section-list li:hover {
+   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+
+.section-list .content {
+padding: 16px 16px 24px 16px;
 }
