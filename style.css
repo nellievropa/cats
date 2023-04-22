@@ -110,6 +110,7 @@ color: #FFFFFF;
 }
 
 .section-title{
+    margin-bottom: 8px;
 font-weight: 700;
 font-size: 24px;
 line-height: calc(40 / 24);
@@ -117,12 +118,12 @@ line-height: calc(40 / 24);
 letter-spacing: 0.5px;
 color: #2C2C2C;
 
-margin-bottom: 40px;
 }
 
 .section-list {
     display: flex;
     gap: 40px;
+    margin-top: 40px;
 
 }
 
@@ -135,7 +136,7 @@ margin-bottom: 40px;
 }
 
 .section-list .content {
-padding: 16px 16px 24px 16px;
+padding: 16px 16px 24px 12px;
 }
 
 .section-list h3 {
@@ -175,49 +176,46 @@ color: #2C2C2C
 }
 
 .page-footer {
+    margin-top: 60px;
     background-color: #0F3F3C;;
     padding-bottom: 48px;
     padding-top: 48px;
 
 }
-.footer-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-
-letter-spacing: 0.5px;
-
-color: #FFFFFF;
-}
-
-
-
 .page-footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.footer-text {
+font-weight: 400;
+font-size: 16px;
+line-height: calc(24 / 16);
+
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+}
+
 .social-links {
     display: flex;
     gap: 8px;
   
-
 }
 .social-links a { 
     display: flex;
     justify-content: center;
     align-items: center;
-      width: 32px;
+    width: 32px;
     height: 32px;
     border-radius: 50%;
-    background-color: tomato;
+    
 }
 
 .social-links a:hover {
     background-color: #FFFFFF;
 }
-
 
 .social-links svg {
     width: 16px;
@@ -228,13 +226,13 @@ color: #FFFFFF;
 .social-links a:hover svg {
 fill: #F07F2E;;
 }
-.social-text {
-    font-weight: 400;
+
+.social-text {   
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.5px;
 
 color: #FFFFFF;
-  text-align:  right;
+text-align:  right;
 
 }
